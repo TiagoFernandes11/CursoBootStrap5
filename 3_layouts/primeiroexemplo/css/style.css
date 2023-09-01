@@ -1,0 +1,96 @@
+/*XS*/
+html h1{
+    color: red;
+}
+
+html .btn-primary{
+    background-color: red;
+}
+
+/* SM >=576px */
+@media(min-width: 576px){
+   html h1{
+        color: blue;
+    }
+    html .btn-primary{
+        background-color: blue;
+    }
+}
+
+/*MD* >= 768px*/
+@media(min-width: 768px){
+   html h1{
+        color: green;
+    }
+    html .btn-primary{
+        background-color: green;
+    }
+}
+
+/*LG* >= 992px*/
+@media(min-width: 992px){
+    html h1{
+         color: purple;
+     }
+     html .btn-primary{
+         background-color: purple;
+     }
+ }
+
+ /*XL* >= 1200px*/
+@media(min-width: 1200px){
+    html h1{
+         color: yellow;
+     }
+     html .btn-primary{
+         background-color: yellow;
+     }
+ }
+
+ .container{
+    background-color: #999;
+ }
+
+ .container-fluid{
+    background-color: #999;
+ }
+
+ /*Container breakpoint*/
+ .container-sm {
+    margin-bottom: 30px;
+    border: 2px solid blue;
+ }
+
+ .container-md {
+    margin-bottom: 30px;
+    border: 2px solid crimson;
+ }
+
+ .container-lg {
+    margin-bottom: 30px;
+    border: 2px solid chocolate;
+ }
+
+  /* Grid */
+  .container{
+    border: 6px dotted blue;
+    padding: 10px;
+    margin-bottom: 300px;
+  }
+
+  .row{
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    margin: 0;
+  }
+
+  .col,
+  .col-2,
+  .col-4,
+  .col-1,
+  .col-11{
+    border: 2px dashed red;
+    height: 100%;
+    margin: 0;
+  }
