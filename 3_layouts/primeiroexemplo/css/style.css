@@ -43,7 +43,7 @@ html .btn-primary{
          color: yellow;
      }
      html .btn-primary{
-         background-color: yellow;
+         background-color: gold;
      }
  }
 
@@ -58,6 +58,7 @@ html .btn-primary{
  /*Container breakpoint*/
  .container-sm {
     margin-bottom: 30px;
+    height: 100%;
     border: 2px solid blue;
  }
 
@@ -82,6 +83,14 @@ html .btn-primary{
     border: 5px solid purple;
     height: 100px;
     padding: 10px;
+    margin: 0;
+  }
+
+  .row-cols-6{
+    border: 5px solid purple;
+    height: 100px;
+    padding: 10px;
+    height: 100%;
     margin: 0;
   }
 
