@@ -103,3 +103,17 @@ html .btn-primary{
     height: 100%;
     margin: 0;
   }
+
+  /*Gutter*/
+
+  #gutter .row{
+    height: 200px;
+  }
+
+  #gutter .col-6{
+    margin: auto;
+  }
+
+  .row p{
+    border: 2px solid green;
+  }
