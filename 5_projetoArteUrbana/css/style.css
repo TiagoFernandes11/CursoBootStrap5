@@ -87,6 +87,7 @@ div.logo-container{
 }
 
 /*GALLERY*/
+
 #img2{
     background-image: url("../img/g_2.jpg");
     background-size: cover;
@@ -116,3 +117,26 @@ div.logo-container{
     height: 250px;
 }
 
+/*Footer*/
+
+ footer{
+    border-top: 1px solid #CCC;
+    height: 250px;
+    padding: 30px;
+ }
+
+ footer i{
+    font-size: 20px;
+ }
+
+ #social-icons-container div{
+    text-align: center;
+ }
+
+ footer p{
+    text-align: center;
+ }
+
+ a:hover i{
+    color: #C1B696;
+ }
