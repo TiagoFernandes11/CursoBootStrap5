@@ -67,3 +67,21 @@ div.logo-container{
 #navbar a:hover{
     color: #C1B696;
 }
+
+/*MAIN IMAGE*/
+
+.main-image{
+    height: 400px;
+    background-image: url("../img/g_1.jpg");
+    background-size: cover;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.main-image-info{
+    background-color: white;
+    padding: 25px;
+    position: absolute;
+    left: 25px;
+    bottom: 25px;
+}
